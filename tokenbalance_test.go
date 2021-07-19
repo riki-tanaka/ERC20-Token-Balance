@@ -17,7 +17,7 @@ func TestFailedConnection(t *testing.T) {
 }
 
 func TestFailingNoConfig(t *testing.T) {
-	_, err := New("0xd26114cd6EE289AccF82350c8d8487fedB8A0C07", "0x42d4722b804585cdf6406fa7739e794b0aa8b1ff")
+	_, err := New("***", "***")
 	assert.Error(t, err)
 }
 
